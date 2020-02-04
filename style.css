@@ -10,6 +10,7 @@ body {
 }
 table {
 	border: solid 2px black;
+	width: 100%;
 }
 th {
 	background: blue;
@@ -23,9 +24,14 @@ th {
 }
 .myForm{
 	width: 50px;
-	margin: auto 10px;
-	padding: 5px;
+	margin: 10px 25%;
+	padding: 10px;
+	display: block;
+	align: center;
 }
 .myButtons{
+	display: inline;
 	padding: 30px 10px;
+	width:50px;
+	margin: 25%;
 }
